@@ -1,4 +1,6 @@
-A cozy, vintage-style digital newspaper designed for a relaxed reading experience. It runs entirely in the browser and features dynamic widgets powered by public APIs and vanilla JavaScript.
+## The Lazy Paper
+
+A cozy, vintage-style newspaper designed for a relaxed reading experience. It runs entirely in the browser and features dynamic widgets powered by public APIs and vanilla JavaScript.
 
 **Live Demo:** https://reporafin.github.io/the-lazy-paper/
 
