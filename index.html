@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lazy Paper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="newspaper-container">
+    <header>
+        <div class="issue-info">
+            <span>Author: Reza</span>
+            <span id="current-date">Sunday, September 27, 2026</span>
+            <span>Price: Your Internet</span>
+        </div>
+        <h1 class="masthead" style="font-size: 4.5rem;">The Lazy Paper</h1>
+        <div class="issue-info" style="border-top: none; justify-content: center;">
+            <span style="font-style: italic; letter-spacing: 1px;">"Written in Pajamas, read with your coffee"</span>
+        </div>
+    </header>
+
+    <main class="grid-layout">
+        <article class="cell article-cell">
+            <h2 class="cell-title">Stay Hydrated my love</h2>
+            <div class="article-body">
+                <p class="drop-cap">W</p>
+                <p>ater, the very essence of life, courses through our veins much like the rivers that carve through the great canyons. It is a fundamental truth, universally acknowledged yet frequently forgotten in the hustle and bustle of our daily endeavors, that proper hydration is paramount to one's well-being and vigor.</p>
+                <p>Physicians of high standing report that a parched constitution leads to a myriad of modern ailments: melancholy of the mind, lethargy of the limbs, and a dullness of the complexion. To partake regularly of clear, cool water is to invigorate the spirit and fortify the body against the trials of the day.</p>
+                <p>Therefore, let it be known to all readers, young and old, that a glass of water is not merely a beverage, but a gentle reminder to care for oneself. Keep your vessel full, and your spirits will surely follow.</p>
+                
+                <div style="margin-top: 25px; text-align: center; border-top: 1px dashed var(--border-color); padding-top: 20px; clear: both; width: 100%;">
+                    <svg viewBox="0 0 150 150" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="var(--ink-color)" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Table -->
+                            <path d="M10,135 L140,135" />
+                            <path d="M15,140 L135,140" stroke-width="1" /> <!-- Table edge -->
+                            
+                            <!-- Glass -->
+                            <path d="M100,135 L95,90 L115,90 L110,135 Z" />
+                            <path d="M97,105 L113,105" stroke-dasharray="2,3"/> <!-- Water level -->
+                            <path d="M102,95 L102,125" stroke-width="1"/> <!-- Glare -->
+                            <path d="M105,100 L105,125" stroke-width="0.5"/>
+                            
+                            <!-- Jug -->
+                            <path d="M40,135 L35,70 C35,50 45,45 55,40 C65,45 75,50 75,70 L70,135 Z" fill="transparent"/>
+                            <path d="M55,40 L55,25 L70,30 L72,48" /> <!-- Spout -->
+                            
+                            <!-- Handle -->
+                            <path d="M35,75 C10,75 10,115 38,115" />
+                            <path d="M35,80 C15,80 15,110 37,110" stroke-width="1"/> <!-- Handle inner details -->
+                            
+                            <!-- Jug shading/crosshatching -->
+                            <path d="M45,75 L45,125" stroke-width="1" />
+                            <path d="M50,85 L50,130" stroke-width="1" />
+                            <path d="M42,90 L42,120" stroke-width="0.5" />
+                            <path d="M47,80 L47,125" stroke-width="0.5" />
+                            
+                            <!-- Flowers -->
+                            <!-- Stem 1 -->
+                            <path d="M60,25 Q50,10 40,15" />
+                            <circle cx="40" cy="15" r="4" fill="var(--ink-color)"/>
+                            <path d="M45,18 Q40,25 45,25 Q50,25 45,18 Z" fill="var(--ink-color)"/> <!-- Leaf -->
+                            
+                            <!-- Stem 2 -->
+                            <path d="M65,25 Q75,10 85,15" />
+                            <circle cx="85" cy="15" r="4" fill="var(--ink-color)"/>
+                            <path d="M80,18 Q75,25 80,25 Q85,25 80,18 Z" fill="var(--ink-color)"/> <!-- Leaf -->
+                            
+                            <!-- Stem 3 -->
+                            <path d="M62,25 Q62,10 65,5" />
+                            <circle cx="65" cy="5" r="4" fill="var(--ink-color)"/>
+                            <path d="M63,12 Q58,16 63,18 Q68,16 63,12 Z" fill="var(--ink-color)"/> <!-- Leaf -->
+                        </g>
+                    </svg>
+                    <p style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; margin-top: 10px; font-weight: bold; color: var(--ink-color);">Drink 2 litres of water daily.</p>
+                </div>
+            </div>
+        </article>
+
+        <div class="cell music-cell">
+            <h2 class="cell-title" style="border-bottom-color: #8d6e63; font-size: 2.2rem; margin-bottom: 10px;">Evening Broadcast</h2>
+            <p style="text-align: center; font-style: italic; margin-bottom: 15px; color: #d7ccc8; font-family: 'Playfair Display', serif; font-size: 1.1rem; letter-spacing: 0.5px;">"Have a cup of coffee and unwind with our relaxing broadcast."</p>
+            <div class="vintage-player">
+                <div class="speaker-grille"></div>
+                
+                <div class="player-controls">
+                    <button class="retro-btn" onclick="prevAudio()" title="Previous"><i class="fas fa-backward"></i></button>
+                    <button class="retro-btn" onclick="playAudio()" title="Play"><i class="fas fa-play"></i></button>
+                    <button class="retro-btn" onclick="pauseAudio()" title="Pause"><i class="fas fa-pause"></i></button>
+                    <button class="retro-btn" onclick="nextAudio()" title="Next"><i class="fas fa-forward"></i></button>
+                </div>
+                
+                <div class="volume-container">
+                    <i class="fas fa-volume-down"></i>
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" class="volume-slider" id="volume-slider" oninput="setVolume(this.value)">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                
+                <div class="now-playing" id="now-playing-text">Tuning in...</div>
+                
+                <audio id="radio-audio"></audio>
+            </div>
+        </div>
+
+        <div class="cell picture-cell">
+            <h2 class="cell-title">Captured Moments</h2>
+            <div class="picture-frame">
+                <img id="vintage-pic" src="https://picsum.photos/400/300?grayscale" alt="Vintage Photography">
+            </div>
+            <div class="photo-credit" id="photo-credit">Photograph by Anonymous</div>
+            <button class="action-btn" onclick="loadNewPicture()">Develop New Plate</button>
+        </div>
+
+        <div class="cell quote-cell">
+            <h2 class="cell-title">Words of Wisdom</h2>
+            <div class="quote-text" id="quote-display">
+                "The details are not the details. They make the design."
+            </div>
+            <p style="text-align: right; font-weight: bold; margin-bottom: 15px;" id="quote-author">- Charles Eames</p>
+            <button class="action-btn" onclick="generateQuote()">Seek Inspiration</button>
+        </div>
+
+        <div class="cell clock-cell">
+            <h2 class="cell-title">Local Time</h2>
+            <div class="clock">
+                <div class="hand hour" id="hour-hand"></div>
+                <div class="hand minute" id="minute-hand"></div>
+                <div class="hand second" id="second-hand"></div>
+                <div class="center-dot"></div>
+            </div>
+        </div>
+
+        <div class="cell classifieds-cell">
+            <h2 class="cell-title">Gentle Reminders</h2>
+            <div class="classified-grid">
+                <div class="ad">
+                    <strong>Move A Little:</strong> Roll your shoulders back, stretch your neck, and maybe take a small stroll outside. Your body works hard for you; give it a gentle stretch!
+                </div>
+                <div class="ad">
+                    <strong>Be Kind to Your Mind:</strong> It is perfectly okay if you didn't conquer the world today. Take a deep breath, let go of the heavy thoughts, and just exist for a moment.
+                </div>
+                <div class="ad">
+                    <strong>Check Your Battery:</strong> Yes, we mean your phone! It's probably lower than you think right now. Go plug it in before it dies, and take a little screen break while it charges.
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
