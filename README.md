@@ -1,10 +1,6 @@
-# the-lazy-paper
-A cozy, vintage style newspaper front page featuring live internet radio, dynamic photography, and gentle reminders.
-# The Lazy Paper
-
 A cozy, vintage-style digital newspaper designed for a relaxed reading experience. It runs entirely in the browser and features dynamic widgets powered by public APIs and vanilla JavaScript.
 
-**Live Demo:** 
+**Live Demo:** https://reporafin.github.io/the-lazy-paper/
 
 ## Features
 * **Vintage Aesthetic:** A classic, sepia-toned newspaper layout built with custom CSS grid and SVG illustrations.
