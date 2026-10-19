@@ -109,7 +109,8 @@
         { text: "Have nothing in your house that you do not know to be useful, or believe to be beautiful.", author: "William Morris" },
         { text: "To send light into the darkness of men's hearts - such is the duty of the artist.", author: "Robert Schumann" },
         { text: "Simplicity is the ultimate sophistication.", author: "Leonardo da Vinci" },
-        { text: "A thing of beauty is a joy for ever.", author: "John Keats" }
+        { text: "A thing of beauty is a joy for ever.", author: "John Keats" },
+        { text: "All roads lead back to me ruining my sleep schedule.", author: "Me"}
     ];
 
     function generateQuote() {
